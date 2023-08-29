@@ -59,7 +59,7 @@ public class BowlingAlleyDaoImpl implements BowlingAlleyDao{
                 Boolean gotStrike = false;
                 Boolean isEligibleForBonus = false;
                 for (int chance = 1; chance <= gameRule.getNumberOfChancesInEachRound(); chance++) {
-                    System.out.print("Player: " + player.getName() + "Round: " + round + " - Enter your number of hits: ");
+                    System.out.print("Player: " + player.getName() + " Round: " + round + " - Enter your number of hits: ");
                     Scanner scanner = new Scanner(System.in);
                     Integer score = scanner.nextInt();
                     totalScore += score;
@@ -103,7 +103,7 @@ public class BowlingAlleyDaoImpl implements BowlingAlleyDao{
                 List<RoundStats> roundStatsList = playerIdToRoundStatsMap.getOrDefault(player.getPlayerId(), new ArrayList<>());
                 roundStatsList.add(roundStats);
                 playerIdToRoundStatsMap.put(player.getPlayerId(), roundStatsList);
-                System.out.println("RoundStats:  " + roundStats + " for player: " + player);
+                System.out.println("RoundStats:  " + roundStats.getTotalPoints() + " for player: " + player.getName());
             }
         }
     }

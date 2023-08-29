@@ -1,4 +1,4 @@
-package org.example;
+package org.aditya;
 
 import dao.SplitWiseDaoImpl;
 import model.expense.EqualExpense;
@@ -33,7 +33,7 @@ public class Main {
         List<Double> expenseVar = new ArrayList<>();
         expenseVar.add((double) 370);
         expenseVar.add((double) 880);
-        expenseManager.addExpense("u1", "Sapna", (double) 1250, users, new ExactExpense(), expenseVar);
+        expenseManager.addExpense("u1", "Sapna", (double) 1260, users, new ExactExpense(), expenseVar);
         expenseManager.showBalances();
         users.clear();
         users.add("u1");

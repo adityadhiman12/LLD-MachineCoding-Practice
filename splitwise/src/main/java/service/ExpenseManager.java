@@ -49,7 +49,6 @@ public class ExpenseManager {
 
     public void showBalances(String userId) {
         Map<String, Double> balanceSheet = splitWiseDao.getBalanceSheet().getOrDefault(userId, new HashMap<>());
-
         for (String userId2 : balanceSheet.keySet()) {
             if (balanceSheet.get(userId2) != 0) {
                 printBalanceInfo(userId, userId2, balanceSheet.get(userId2));
