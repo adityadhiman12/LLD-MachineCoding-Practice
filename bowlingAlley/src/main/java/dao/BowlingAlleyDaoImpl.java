@@ -10,10 +10,10 @@ import model.Score;
 import java.util.*;
 
 public class BowlingAlleyDaoImpl implements BowlingAlleyDao{
-    private List<Player> players;
-    private Map<String, List<RoundStats>> playerIdToRoundStatsMap;
+    private final List<Player> players;
+    private final Map<String, List<RoundStats>> playerIdToRoundStatsMap;
 
-    private BowlingAlleyGame gameRule;
+    private final BowlingAlleyGame gameRule;
 
     public BowlingAlleyDaoImpl(BowlingAlleyGame gameRule) {
         this.players = new ArrayList<>();

@@ -13,7 +13,6 @@ public class Score {
         return noOfPinsDown;
     }
 
-w
     public void setNoOfPinsDown(int noOfPinsDown) {
         this.noOfPinsDown = noOfPinsDown;
     }
