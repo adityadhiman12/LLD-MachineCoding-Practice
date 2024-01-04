@@ -8,6 +8,5 @@ import java.util.Map;
 public interface SplitWiseDao {
     void addUserToDb(User user);
     void addExpenseToDb(Expense expense);
-
     Map<String, Map<String, Double>> getBalanceSheet();
 }
