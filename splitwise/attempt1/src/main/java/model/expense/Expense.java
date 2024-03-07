@@ -13,6 +13,14 @@ public class Expense {
     private double amount;
     private String payer;
     private Map<String, Double> owerAmountMap;
+
+    public Expense(String label, ExpenseType expenseType, double amount, String payer, Map<String, Double> owerAmountMap) {
+        this.label = label;
+        this.expenseType = expenseType;
+        this.amount = amount;
+        this.payer = payer;
+        this.owerAmountMap = owerAmountMap;
+    }
     public String getLabel() {
         return label;
     }
@@ -52,15 +60,4 @@ public class Expense {
     public void setOwerAmountMap(Map<String, Double> owerAmountMap) {
         this.owerAmountMap = owerAmountMap;
     }
-
-
-    public Expense(String label, ExpenseType expenseType, double amount, String payer, Map<String, Double> owerAmountMap) {
-        this.label = label;
-        this.expenseType = expenseType;
-        this.amount = amount;
-        this.payer = payer;
-        this.owerAmountMap = owerAmountMap;
-    }
-
-
 }

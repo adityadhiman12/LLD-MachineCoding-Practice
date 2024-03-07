@@ -13,7 +13,6 @@ public class EqualExpense extends ExpenseType {
         super(EXPENSE_TYPE.EQUAL);
     }
 
-
     @Override
     public Map<String, Double> getOweAmount(ExpenseBuilder expenseBuilder) {
         List<String> userIds = expenseBuilder.getParticipants();

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ExpenseManager {
-    public final SplitWiseDao splitWiseDao;
+    private final SplitWiseDao splitWiseDao;
 
     public ExpenseManager(SplitWiseDao splitWiseDao) {
         this.splitWiseDao = splitWiseDao;

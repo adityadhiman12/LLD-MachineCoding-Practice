@@ -6,7 +6,15 @@ public class ExpenseBuilder {
     private Double amount;
     private List<String> participants;
     private List<Double> divisions;
-
+    public ExpenseBuilder(Double amount, List<String> participants, List<Double> divisions) {
+        this.amount=amount;
+        this.participants=participants;
+        this.divisions=divisions;
+    }
+    public ExpenseBuilder(Double amount, List<String> participants) {
+        this.amount=amount;
+        this.participants=participants;
+    }
     public Double getAmount() {
         return amount;
     }
@@ -29,16 +37,5 @@ public class ExpenseBuilder {
 
     public void setDivisions(List<Double> divisions) {
         this.divisions = divisions;
-    }
-
-
-    public ExpenseBuilder(Double amount, List<String> participants, List<Double> divisions) {
-        this.amount=amount;
-        this.participants=participants;
-        this.divisions=divisions;
-    }
-    public ExpenseBuilder(Double amount, List<String> participants) {
-        this.amount=amount;
-        this.participants=participants;
     }
 }

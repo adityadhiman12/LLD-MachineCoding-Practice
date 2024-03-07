@@ -12,7 +12,6 @@ public class SplitWiseDaoImpl implements SplitWiseDao{
     private static SplitWiseDao splitWiseDao;
     private final Map<String, List<Expense>> userToExpensesMap;
     private final Map<String, Map<String, Double>> balanceSheet;
-
     private final List<User> users;
 
     private SplitWiseDaoImpl() {
@@ -29,7 +28,6 @@ public class SplitWiseDaoImpl implements SplitWiseDao{
     @Override
     public void addUserToDb(User user) {
         users.add(user);
-        System.out.println(users);
     }
 
     @Override

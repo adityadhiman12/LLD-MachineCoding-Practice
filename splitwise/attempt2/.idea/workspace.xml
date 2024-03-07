@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f05d887-fecd-4d02-b187-bbfaee6616d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/dao/SplitWiseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/dao/SplitWiseDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/model/enums/EXPENSE_TYPE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/model/expense/EqualExpense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/model/expense/ExactExpense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/model/expense/Expense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/model/expense/ExpenseType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/model/expense/PercentExpense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/model/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/org/aditya/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/service/ExpenseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/service/ExpenseManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/dao/SplitWiseDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/dao/SplitWiseDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/model/enums/EXPENSE_TYPE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/model/expense/EqualExpense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/model/expense/ExactExpense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/model/expense/Expense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/model/expense/ExpenseType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/model/expense/PercentExpense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/model/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/org/aditya/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/service/ExpenseBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/service/ExpenseManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/service/ExpenseManagerTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9f05d887-fecd-4d02-b187-bbfaee6616d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,15 +15,35 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2aSLXzaMv0yN5YIl8JnOX3RRn2Z" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -72,9 +58,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.attempt2 [:Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/adityadhiman/aditya/LLD-MachineCoding-Practice/splitwise/attempt2"
   }
 }]]></component>
   <component name="RunManager">
